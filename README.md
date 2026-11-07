@@ -11,7 +11,7 @@
 </p>
 
 ![Tela inicial do Garagely](docs/página001.png)
-![Tela inicial do Garagely antigo](docs/página000.png)
+![Tela inicial do Garagely antigo](docs/pagina000.png)
 
 ## Sobre
 
