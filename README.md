@@ -1,7 +1,67 @@
-# Garagely
-Projeto Airbnb Garage feito em HTML e CSS, com a proposta de uma plataforma de aluguel de garagens de forma fácil, rápida e acessível. Projeto em desenvolvimento para adição de funcionalidades com Javascript e site autoral para Garagely.
-<img width="1502" height="821" alt="image" src="https://github.com/user-attachments/assets/2b0ee930-9763-4197-b2dc-c714557220e2" />
-<img width="1850" height="939" alt="Captura de tela 2025-11-29 131147" src="https://github.com/user-attachments/assets/0c22fdf7-7b16-4218-8659-b59d8f418682" />
-<img width="1865" height="944" alt="Captura de tela 2025-11-29 131218" src="https://github.com/user-attachments/assets/5bbe4b2d-a2ce-4730-9e27-7b3e5c09f1a6" />
-<img width="1833" height="917" alt="Captura de tela 2025-11-29 131245" src="https://github.com/user-attachments/assets/60acacca-1ad3-4487-92a4-0773abf9c5d5" />
-<img width="1863" height="931" alt="Captura de tela 2025-11-29 131344" src="https://github.com/user-attachments/assets/c7b389fa-2e3d-4f02-b1b5-e3f1ccab4426" />
+<h1 align="center">Garagely</h1>
+
+<p align="center">
+  Plataforma de aluguel de garagens e espaços de armazenamento.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite">
+</p>
+
+![Tela inicial do Garagely](docs/página001.png)
+![Tela inicial do Garagely antigo](docs/página000.png)
+
+## Sobre
+
+O Garagely nasceu como um protótipo em HTML e CSS (pasta `legacy`) e está
+sendo reconstruído como aplicação full stack, para praticar front-end,
+API e banco de dados. O projeto se iniciou no segundo semestre do meu curso Técnico em Desenvolvimento de Sistemas como um "Airbnb Garage" e, hoje, está em desenvolvimento para um projeto autoral.
+
+## Funcionalidades
+
+- [ ] Layout responsivo com modo claro e escuro
+- [x] Header com menu de navegação
+- [x] Grade de cards de garagens
+- [ ] Busca por nome e cidade
+- [ ] API com Node.js e Express
+- [ ] Banco de dados PostgreSQL com Prisma
+- [ ] Login e cadastro (JWT)
+- [ ] Cadastro de garagens
+- [ ] Deploy
+
+## Tecnologias
+
+- **Front-end:** React, Vite, CSS
+- **Planejado:** Node.js, Express, PostgreSQL, Prisma
+
+## Como rodar
+
+```bash
+git clone https://github.com/adrianadamore/Garagely.git
+cd Garagely/client
+npm install
+npm run dev
+```
+
+Abra o endereço mostrado no terminal (normalmente http://localhost:5173).
+
+## Estrutura
+
+```
+Garagely/
+├── client/    # front-end em React
+└── legacy/    # primeira versão em HTML e CSS
+```
+
+## O que estou praticando
+
+Componentes e props, `useState`, listas com `map`, filtros com `filter`
+e organização de pastas.
+
+## Autora
+
+**Adriana Valentina D'Amore**
+[LinkedIn](https://www.linkedin.com/in/adriana-valentina-damore) ·
+[GitHub](https://github.com/adrianadamore)
