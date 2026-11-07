@@ -1,0 +1,38 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-photo {
+  height: 160px;
+  background: var(--border);
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.card-city {
+  color: var(--muted);
+  margin: 4px 0 12px;
+}
